@@ -28,3 +28,55 @@ spec:
   type: service
   lifecycle: experimental
   owner: default-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-sensors
+  description: Spring Sensors
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-petclinic
+  description: Spring PetClinic
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-petclinic'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tanzu-java-web-app
+  description: Tanzu Java Web App
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
