@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: tap-gui-catalog-info
-  description: A sample catalog for Backstage
+  name: tap-gui-catalog
+  description: Starter catalog with accelerators
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
@@ -11,72 +11,7 @@ spec:
     - ./groups/default-org.yaml
     - ./systems/tap-gui-system.yaml
     - ./domains/tap-gui-domain.yaml
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: node-express
-  description: Node Express Sample App
-  tags:
-    - app-accelerator
-    - node
-    - express
-    - tanzu
-  annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=node-express'
-spec:
-  type: service
-  lifecycle: experimental
-  owner: default-team
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: spring-sensors
-  description: Spring Sensors
-  tags:
-    - app-accelerator
-    - java
-    - spring
-    - tanzu
-  annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors'
-spec:
-  type: service
-  lifecycle: experimental
-  owner: default-team
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: spring-petclinic
-  description: Spring PetClinic
-  tags:
-    - app-accelerator
-    - java
-    - spring
-    - tanzu
-  annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-petclinic'
-spec:
-  type: service
-  lifecycle: experimental
-  owner: default-team
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: tanzu-java-web-app
-  description: Tanzu Java Web App
-  tags:
-    - app-accelerator
-    - java
-    - spring
-    - web
-    - tanzu
-  annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
-spec:
-  type: service
-  lifecycle: experimental
-  owner: default-team
+    - https://github.com/sample-accelerators/spring-petclinic/blob/accelerator/catalog/catalog-info.yaml
+    - https://github.com/sample-accelerators/node-express/blob/main/catalog/catalog-info.yaml
+    - https://github.com/sample-accelerators/tanzu-java-web-app/blob/main/catalog/catalog-info.yaml
+    - https://github.com/sample-accelerators/spring-sensors/blob/accelerator/catalog/catalog-info.yaml
