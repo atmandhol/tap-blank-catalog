@@ -8,6 +8,8 @@ metadata:
 spec:
   targets:
     - ./components/tap-gui.yaml
+    - ./components/node-express.yaml
+    - ./components/spring-sensors.yaml
     - ./groups/default-org.yaml
     - ./systems/tap-gui-system.yaml
     - ./domains/tap-gui-domain.yaml
