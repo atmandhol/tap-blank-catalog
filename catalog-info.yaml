@@ -11,7 +11,4 @@ spec:
     - ./groups/default-org.yaml
     - ./systems/tap-gui-system.yaml
     - ./domains/tap-gui-domain.yaml
-    - https://github.com/sample-accelerators/spring-petclinic/blob/accelerator/catalog/catalog-info.yaml
-    - https://github.com/sample-accelerators/node-express/blob/main/catalog/catalog-info.yaml
-    - https://github.com/sample-accelerators/tanzu-java-web-app/blob/main/catalog/catalog-info.yaml
-    - https://github.com/sample-accelerators/spring-sensors/blob/accelerator/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/main/where-for-dinner/catalog/catalog-info.yaml
