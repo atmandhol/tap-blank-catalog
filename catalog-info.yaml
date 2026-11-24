@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: tap-gui-catalog
-  description: Starter catalog with accelerators
+  description: Starter catalog with the Application Accelerator sample apps (pinned to tap-1.12.6)
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
@@ -11,4 +11,21 @@ spec:
     - ./groups/default-org.yaml
     - ./systems/tap-gui-system.yaml
     - ./domains/tap-gui-domain.yaml
-    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/main/where-for-dinner/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/where-for-dinner/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/angular-frontend/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/appsso-starter-java/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/csharp-rest-service/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/csharp-weatherforecast/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/java-function/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/java-rest-service/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/java-server-side-ui/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/node-express/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/node-function/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/python-function/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/python-web-app/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/react-frontend/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/spring-ai-chat/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/spring-cloud-serverless/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/spring-secure-resource-server/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/spring-streaming-app/catalog/catalog-info.yaml
+    - https://github.com/vmware-tanzu/application-accelerator-samples/blob/tap-1.12.6/tanzu-java-web-app/catalog/catalog-info.yaml
